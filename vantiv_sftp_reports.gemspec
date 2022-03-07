@@ -17,8 +17,8 @@ Gem::Specification.new do |s|
   s.require_paths = %w[lib]
 
   s.add_dependency             'net-sftp', '~> 2.1.2'
-  s.add_development_dependency 'bundler',  '~> 1.16'
+  s.add_development_dependency 'bundler',  '~> 2.2.33'
   s.add_development_dependency 'minitest', '~> 5.0'
-  s.add_development_dependency 'rake',     '~> 10.0'
+  s.add_development_dependency 'rake',     '~> 12.3.3'
   s.add_development_dependency 'rubocop',  '~> 0.56'
 end
