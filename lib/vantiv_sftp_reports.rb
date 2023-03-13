@@ -15,8 +15,8 @@ module VantivSFTPReports
     end
     alias fetch call
 
-    def configure(config = env_config)
-      @default_config = Config.with_obj(config)
+    def configure()
+      @default_config = Config.with_obj(env_config)
       @default_fetch = Fetch.new(@default_config)
     end
 

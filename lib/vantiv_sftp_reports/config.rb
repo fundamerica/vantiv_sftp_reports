@@ -3,7 +3,7 @@
 module VantivSFTPReports
   class Config
     def self.with_obj(config)
-      config.is_a?(self) ? config : new(config)
+      config.is_a?(self) ? config : new(**config)
     end
 
     def initialize(**opts)
