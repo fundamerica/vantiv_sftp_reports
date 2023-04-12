@@ -37,7 +37,7 @@ module VantivSFTPReports
     private
 
     def defaults!
-      @opts[:host] ||= 'reports.iq.vantivcnp.com'
+      @opts[:host] ||= 'reports.vantivcnp.com'
       @opts[:path] ||= 'reports'
       @opts[:port] ||= '22'
     end
